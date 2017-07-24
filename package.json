@@ -1,0 +1,20 @@
+{
+  "name": "tslint-wix-core3",
+  "version": "1.0.0",
+  "description": "A set of linting tools and their configurations that wix core3 team uses",
+  "main": "tslint.json",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "tslint",
+    "wix",
+    "typescript"
+  ],
+  "author": "Kobeliatskyi Volodymyr",
+  "license": "ISC",
+  "dependencies": {
+    "tslint": "^5.5.0",
+    "tslint-microsoft-contrib": "^5.0.1"
+  }
+}

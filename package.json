@@ -1,7 +1,7 @@
 {
-  "name": "tslint-wix-core3",
+  "name": "tslint-wix-react",
   "version": "1.0.0",
-  "description": "A set of linting tools and their configurations that wix core3 team uses",
+  "description": "A tslint configuration extending tslint-microsoft-contrib",
   "main": "tslint.json",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

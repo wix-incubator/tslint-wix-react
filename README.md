@@ -10,3 +10,6 @@ In your `tslint.json`:
 ```
 extends: ["tslint-wix-core3"]
 ```
+
+## How to contribute
+[Contribution guidelines for this project](.github/CONTRIBUTING.md)

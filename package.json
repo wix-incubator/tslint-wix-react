@@ -14,7 +14,7 @@
   "author": "Kobeliatskyi Volodymyr",
   "license": "ISC",
   "dependencies": {
-    "tslint": "^5.5.0",
     "tslint-microsoft-contrib": "^5.0.1"
-  }
+  },
+  "false": {}
 }

@@ -2,9 +2,9 @@
   "name": "tslint-wix-react",
   "version": "1.0.0",
   "description": "A tslint configuration extending tslint-microsoft-contrib",
-  "main": "tslint.json",
+  "main": "tslint.js",
   "files": [
-    "tslint.json"
+    "tslint.js"
   ],
   "scripts": {
     "example": "webpack-dev-server --progress"

@@ -4,7 +4,7 @@
   "description": "A tslint configuration extending tslint-microsoft-contrib",
   "main": "tslint.json",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "example": "webpack-dev-server --progress"
   },
   "keywords": [
     "tslint",
@@ -15,6 +15,17 @@
   "license": "ISC",
   "dependencies": {
     "tslint-microsoft-contrib": "^5.0.1"
+  },
+  "devDependencies": {
+    "@types/react": "^15.0.39",
+    "@types/react-dom": "^15.5.1",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "ts-loader": "^2.3.1",
+    "tslint": "^5.5.0",
+    "typescript": "^2.4.2",
+    "webpack": "^3.4.1",
+    "webpack-dev-server": "^2.6.1"
   },
   "false": {}
 }

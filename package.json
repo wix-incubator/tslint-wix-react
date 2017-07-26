@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "A tslint configuration extending tslint-microsoft-contrib",
   "main": "tslint.json",
+  "files": [
+    "tslint.json"
+  ],
   "scripts": {
     "example": "webpack-dev-server --progress"
   },
@@ -15,6 +18,9 @@
   "license": "ISC",
   "dependencies": {
     "tslint-microsoft-contrib": "^5.0.1"
+  },
+  "peerDependencies": {
+    "tslint": "^5.5.0"
   },
   "devDependencies": {
     "@types/react": "^15.0.39",

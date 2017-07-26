@@ -7,6 +7,7 @@ export interface IState {
 }
 
 export class NamePrompt extends React.Component<Props, IState> {
+
     constructor(props: Props) {
         super(props);
 
@@ -22,7 +23,7 @@ export class NamePrompt extends React.Component<Props, IState> {
     }
 
     public render(): JSX.Element {
-        const {value} = this.state;
+        const value: string = this.state.value;
         const {onChange} = this.props;
 
         return <form>

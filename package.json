@@ -7,7 +7,8 @@
     "tslint.js"
   ],
   "scripts": {
-    "example": "webpack-dev-server --progress"
+    "lint-sample": "tslint -c sample/tslint.json --type-check --project sample/tsconfig.json sample/src/*.*",
+    "sample": "webpack-dev-server --progress"
   },
   "keywords": [
     "tslint",

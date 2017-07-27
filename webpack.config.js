@@ -1,7 +1,7 @@
 module.exports = {
     devtool: 'source-map',
     entry: {
-        example: './example/hello-world-app/src/index.tsx'
+        sample: './sample/src/index.tsx'
     },
     module: {
         rules: [
@@ -20,7 +20,7 @@ module.exports = {
         extensions: ['.js', '.ts', '.tsx']
     },
     output: {
-        filename: '[name].bundle.js',
+        filename: '[name]-app.js',
         pathinfo: true
     }
 }

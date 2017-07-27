@@ -20,6 +20,8 @@ module.exports = {
         "missing-jsdoc": false,
         // The original rule only allowed absolute imports
         // which is spwcific to how MS bundles and delivers its artifacts
-        "no-relative-imports": false 
+        "no-relative-imports": false,
+        "completed-docs": false,
+        // "no-unsafe-any": false
     }
 }

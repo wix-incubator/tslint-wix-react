@@ -5,5 +5,5 @@ export interface IProps {
 }
 
 export function Greeting({text}: IProps): JSX.Element {
-    return <h1>{ `Hello, ${text}!` }</h1>;
+    return <h1>{`Hello, ${text}!`}</h1>;
 }

@@ -17,10 +17,12 @@ export class App extends React.Component<{}, IState> {
     public render(): JSX.Element {
         const {name} = this.state;
 
-        return <div>
-            <NamePrompt value={ name } onChange={ this.handleChange } />
-            <Greeting text={ name } />
-        </div>;
+        return (
+            <div>
+                <NamePrompt value={name} onChange={this.handleChange} />
+                <Greeting text={name} />
+            </div>
+        );
     }
 
     private handleChange: React.ChangeEventHandler<HTMLInputElement> = (e) => {

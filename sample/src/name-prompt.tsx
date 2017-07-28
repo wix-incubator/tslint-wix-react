@@ -26,13 +26,19 @@ export class NamePrompt extends React.Component<Props, IState> {
         const value: string = this.state.value;
         const {onChange} = this.props;
 
-        return <form>
-            <fieldset>
-                <label>
-                    Introduce yourself:
-                    <input type='text' {...this.props}/>
-                </label>
-            </fieldset>
-        </form>;
+        return (
+            <form>
+                <fieldset>
+                    <label>
+                        Introduce yourself:
+                        <input
+                            {...this.props}
+                            type="text"
+                            readOnly={true}
+                        />
+                    </label>
+                </fieldset>
+            </form>
+        );
     }
 }

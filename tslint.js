@@ -11,6 +11,7 @@ module.exports = {
                 multiline: "never",
                 singleline: "never",
             }
-        }
+        },
+        "interface-name": false
     }
 }

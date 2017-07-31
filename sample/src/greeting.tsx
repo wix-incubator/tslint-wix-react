@@ -1,9 +1,9 @@
 import * as React from 'react';
 
-export interface IProps {
+export interface Props {
     text: string;
 }
 
-export function Greeting({text}: IProps): JSX.Element {
+export function Greeting({text}: Props): JSX.Element {
     return <h1>{`Hello, ${text}!`}</h1>;
 }

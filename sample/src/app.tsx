@@ -2,11 +2,11 @@ import * as React from 'react';
 import {Greeting} from './greeting';
 import {NamePrompt} from './name-prompt';
 
-export interface IState {
+export interface State {
     name: string;
 }
 
-export class App extends React.Component<{}, IState> {
+export class App extends React.Component<{}, State> {
     constructor() {
         super();
         this.state = {

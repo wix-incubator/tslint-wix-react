@@ -2,11 +2,11 @@ import * as React from 'react';
 
 export type Props = React.InputHTMLAttributes<HTMLInputElement>;
 
-export interface IState {
+export interface State {
     value: string;
 }
 
-export class NamePrompt extends React.Component<Props, IState> {
+export class NamePrompt extends React.Component<Props, State> {
 
     constructor(props: Props) {
         super(props);

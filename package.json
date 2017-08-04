@@ -6,10 +6,6 @@
   "files": [
     "tslint.js"
   ],
-  "scripts": {
-    "lint-sample": "tslint -c sample/tslint.json --type-check --project sample/tsconfig.json sample/src/*.*",
-    "sample": "webpack-dev-server --progress"
-  },
   "keywords": [
     "tslint",
     "wix",
@@ -33,6 +29,5 @@
     "typescript": "^2.4.2",
     "webpack": "^3.4.1",
     "webpack-dev-server": "^2.6.1"
-  },
-  "false": {}
+  }
 }

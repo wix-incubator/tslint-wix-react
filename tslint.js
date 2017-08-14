@@ -20,6 +20,7 @@ module.exports = {
         "no-reference": false,
         "max-classes-per-file": [false],
         "jsx-boolean-value": false,
-        "no-unused-expression": false
+        "no-unused-expression": false,
+        "no-unused-variable": true
     }
 }

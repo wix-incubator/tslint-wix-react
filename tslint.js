@@ -16,6 +16,10 @@ module.exports = {
         "no-reference": false,
         "no-unused-expression": false,
         "no-unused-variable": true,
+        "object-curly-spacing": [
+            true,
+            "never"
+        ],
         "object-literal-sort-keys": false,
         "quotemark": [true, "single", "jsx-double"],
         "trailing-comma": [

@@ -11,6 +11,7 @@ module.exports = {
             {"multiline": "never"},
             {"singleline": "never"}
         ],
+        "indent": [true, "spaces", 4],
         "interface-name": [false],
         "jsx-no-multiline-js": false,
         "no-empty": false,

@@ -3,6 +3,9 @@ module.exports = {
         "tslint:latest",
         "tslint-react"
     ],
+    "rulesDirectory": [
+        "./node_modules/tslint-eslint-rules/dist/rules"
+    ],
     "rules": {
         "arrow-parens": [true, "ban-single-arg-parens"],
         "forin": true,

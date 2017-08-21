@@ -1,10 +1,12 @@
+const path = require('path');
+
 module.exports = {
     "extends": [
         "tslint:latest",
         "tslint-react"
     ],
     "rulesDirectory": [
-        "./node_modules/tslint-eslint-rules/dist/rules"
+        path.join(path.dirname(require.resolve('tslint-eslint-rules')), 'dist/rules')
     ],
     "rules": {
         "arrow-parens": [true, "ban-single-arg-parens"],

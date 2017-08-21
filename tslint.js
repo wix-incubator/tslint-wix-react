@@ -4,23 +4,24 @@ module.exports = {
         "tslint-react"
     ],
     "rules": {
-        "quotemark": [true, "single", "jsx-double"],
+        "arrow-parens": [true, "ban-single-arg-parens"],
+        "forin": true,
+        "indent": [true, "spaces", 4],
+        "interface-name": [false],
         "jsx-alignment": true,
+        "jsx-boolean-value": false,
+        "jsx-no-multiline-js": false,
+        "max-classes-per-file": [false],
+        "no-empty": false,
+        "no-reference": false,
+        "no-unused-expression": false,
+        "no-unused-variable": true,
+        "object-literal-sort-keys": false,
+        "quotemark": [true, "single", "jsx-double"],
         "trailing-comma": [
             true,
             {"multiline": "never"},
             {"singleline": "never"}
-        ],
-        "interface-name": [false],
-        "jsx-no-multiline-js": false,
-        "no-empty": false,
-        "object-literal-sort-keys": false,
-        "forin": true,
-        "arrow-parens": [true, "ban-single-arg-parens"],
-        "no-reference": false,
-        "max-classes-per-file": [false],
-        "jsx-boolean-value": false,
-        "no-unused-expression": false,
-        "no-unused-variable": true
+        ]
     }
 }

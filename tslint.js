@@ -3,6 +3,9 @@ module.exports = {
         "tslint:latest",
         "tslint-react"
     ],
+    "rulesDirectory": [
+        "./node_modules/tslint-eslint-rules/dist/rules"
+    ],
     "rules": {
         "arrow-parens": [true, "ban-single-arg-parens"],
         "forin": true,
@@ -16,6 +19,10 @@ module.exports = {
         "no-reference": false,
         "no-unused-expression": false,
         "no-unused-variable": true,
+        "object-curly-spacing": [
+            true,
+            "never"
+        ],
         "object-literal-sort-keys": false,
         "quotemark": [true, "single", "jsx-double"],
         "trailing-comma": [

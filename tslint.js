@@ -18,6 +18,7 @@ module.exports = {
         "jsx-no-multiline-js": false,
         "max-classes-per-file": [false],
         "no-empty": false,
+        "no-implicit-dependencies": false,
         "no-reference": false,
         "no-unused-expression": false,
         "no-unused-variable": true,

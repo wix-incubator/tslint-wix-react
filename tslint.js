@@ -6,7 +6,8 @@ module.exports = {
         "tslint-react"
     ],
     "rulesDirectory": [
-        path.join(path.dirname(require.resolve('tslint-eslint-rules')), 'dist/rules')
+        path.join(path.dirname(require.resolve('tslint-eslint-rules')), 'dist/rules'),
+        path.join(path.dirname(require.resolve('tslint-microsoft-contrib')))
     ],
     "rules": {
         "arrow-parens": [true, "ban-single-arg-parens"],
@@ -17,6 +18,7 @@ module.exports = {
         "jsx-boolean-value": false,
         "jsx-no-multiline-js": false,
         "max-classes-per-file": [false],
+        "mocha-avoid-only": true,
         "no-empty": false,
         "no-implicit-dependencies": false,
         "no-reference": false,

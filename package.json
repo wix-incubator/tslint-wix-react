@@ -1,6 +1,6 @@
 {
   "name": "tslint-wix-react",
-  "version": "5.0.0",
+  "version": "6.0.0",
   "description": "A tslint configuration extending tslint-microsoft-contrib",
   "main": "tslint.js",
   "files": [

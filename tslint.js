@@ -7,7 +7,7 @@ module.exports = {
     ],
     "rulesDirectory": [
         path.join(path.dirname(require.resolve('tslint-eslint-rules')), 'dist/rules'),
-        path.join(path.dirname(require.resolve('tslint-microsoft-contrib'))),
+        'node_modules/tslint-microsoft-contrib'
     ],
     "rules": {
         "arrow-parens": [true, "ban-single-arg-parens"],

@@ -1,5 +1,5 @@
 # tslint-wix-react
-A tslint configuration extending tslint-microsoft-contrib in a specific to wix ways
+A tslint configuration specific to wix ways
 
 ## How to use
 In your project:

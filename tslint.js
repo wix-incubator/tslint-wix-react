@@ -34,6 +34,22 @@ module.exports = {
             true,
             {"multiline": "never"},
             {"singleline": "never"}
+        ],
+        "ordered-imports": [
+            true,
+            {
+                "grouped-imports": true,
+                "import-sources-order": "any",
+                "named-imports-order": "any"
+            }
+        ],
+        "align": [
+            true,
+            "arguments",
+            "elements",
+            "members",
+            "parameters",
+            "statements"
         ]
     }
 }

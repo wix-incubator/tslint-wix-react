@@ -19,6 +19,6 @@
     "tslint-react": "^3.1.0"
   },
   "peerDependencies": {
-    "tslint": "^5.5.0"
+    "tslint": "^5.11.0"
   }
 }

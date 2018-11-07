@@ -23,7 +23,6 @@ module.exports = {
         "no-implicit-dependencies": false,
         "no-reference": false,
         "no-unused-expression": false,
-        "no-unused-variable": true,
         "object-curly-spacing": [
             true,
             "never"
